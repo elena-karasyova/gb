@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Статьи</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="gallery.html">Галерея изображений</a></li>
+            <li><b><a href="registration.html">Регистрация</a></b></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <br>
+        <div id="reg_form">
+            <fieldset id="fio">
+                <legend>ФИО</legend>
+                <label>Фамилия<br>
+                    <input type="text" name="surname">
+                </label>
+                <br>
+                <label>Имя<br>
+                    <input type="text" name="name">
+                </label>
+                <br>
+                <label>Отчество<br>
+                    <input type="text" name="father_name">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Добавить пароль</legend>
+                <label>Пароль</label>
+                <input type="password" name="password"><br>
+                <label>Повторите пароль</label>
+                <input type="password" name="password_repeat">
+            </fieldset>
+                
+            <fieldset>
+                <legend>Дополнительная информация</legend>
+                <label>Добавить фотографию</label> <br>
+                    <input type="file"><br>
+                <label>Адрес электронной почты</label><br>
+                <input type="email" name="email"><br>
+                <label>Адрес сайта<br>
+                    <input type="url" name="site" value="http://">
+                </label>
+                <br>
+                <label>Пол<br>
+                    <input type="radio" name="gender" value="man">Мужской
+                    <input type="radio" name="gender" value="woman">Женский
+                </label><br>
+                <label>Дата рождения</label><br>
+                <input type="date" name="birthday"><br>
+                <label>Укажите знакомые Вам технологии<br>
+                    <input type="checkbox" name="check1">HTML
+                    <input type="checkbox" name="check2">CSS
+                    <input type="checkbox" name="check3">JavaScript
+                    <input type="checkbox" name="check4">Python/Django
+                </label>
+                <br>
+                <label>О себе<br>
+                    <textarea cols="50" rows="3" name="address"></textarea>
+                </label>
+            </fieldset>
+        </div>
+    </body>
+</html>
