@@ -1,0 +1,15 @@
+h1{
+        text-align: center;
+        color: rgb(0, 124, 133);
+        text-decoration: none;
+        font-family: "MS SANS";
+        font-size: 30px;
+        border-width: 0px 0px 5px 0px;
+        text-transform: uppercase;
+    }
+h2 {
+        color: rgb(77, 77, 77);
+        text-decoration: none;
+        font-family: "MS SANS";
+        font-size: 20px;
+}

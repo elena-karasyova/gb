@@ -1,0 +1,7 @@
+body {
+    background: url(../images/unnamed.jpg) fixed repeat;
+}
+a {
+    font-family: courier,'Courier New', Courier, monospace;
+    color: rgb(58, 58, 58);
+}

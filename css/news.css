@@ -1,0 +1,17 @@
+h1 a {
+    color: rgb(0, 124, 133);
+    text-decoration: none;
+    font-family: "MS SANS";
+    font-size: 30px;
+    border-width: 0px 0px 5px 0px;
+}
+h1 + p{
+    background-color: rgb(255, 255, 255);
+}
+.read_next:hover {
+    text-decoration: none;
+    color: rgb(0, 124, 133);
+}
+.go_to_comments {
+    color: rgb(161, 161, 161);
+}
