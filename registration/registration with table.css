@@ -1,0 +1,23 @@
+tr .registration__form-name {
+    width: 200px;
+}
+tr .registration__two-column {
+    width: 260px;
+}
+textarea {
+    width: 220px;
+    height: 70px;
+    resize: none;
+}
+
+table {
+    border: 1px solid  rgb(0, 124, 133);
+    margin: 5px;
+    background-color: rgba(238, 238, 238, 0.459);
+}
+caption {
+    font-size: 18px;
+    color: rgb(0, 124, 133);
+    margin: 12px;
+    text-align: left;
+}

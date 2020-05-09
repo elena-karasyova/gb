@@ -1,7 +1,10 @@
 input[type=text], input[type=email],input[type=url],input[type=date]  {
-    width: 200px;
+    width: 220px;
 }
 input[type=password]{
+    width: 150px;
+}
+input[type=date]{
     width: 150px;
 }
 input[type=password]:focus{
@@ -12,8 +15,14 @@ input[type=password]:focus{
     text-transform: capitalize;
 }
 fieldset{
-    background-color: rgb(236, 236, 236);
+    width: 400px;
+    background-color: rgba(236, 236, 236, 0.575);
 }
 input[type=submit]:active{
     background-color:rgb(119, 192, 197); ;
+}
+textarea {
+    width: 220px;
+    height: 70px;
+    resize: none;
 }

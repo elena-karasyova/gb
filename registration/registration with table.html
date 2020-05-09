@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/style.css"  type="text/css" />
+        <link rel="stylesheet" href="../css/registration.css"  type="text/css" />
+        <link rel="stylesheet" href="registration with table.css"  type="text/css" />
+    </head>
+    <body>
+        <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../news/news.html">Статьи</a></li>
+            <li><a href="../catalog/catalog.html">Каталог</a></li>
+            <li><a href="../gallery/gallery.html">Галерея изображений</a></li>
+            <li><b><a href="../registration/registration.html">Регистрация</a></b></li>
+            <li><a href="../contacts/contacts.html">Контакты</a></li>
+        </ul>
+        <br>
+        <div class="registration">
+
+        <table>
+            <caption> Зарегистрироваться </caption>
+             <tr>
+                    <td class="registration__form-name">Фамилия</td>
+                    <td class="registration__two-column"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Имя</td>
+                    <td class="registration__two-column"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Отчество</td>
+                    <td class="registration__two-column"><input type="text"></td>
+                </tr>   
+        </table>
+        <table>
+                <tr>
+                    <td class="registration__form-name">Пароль</td>
+                    <td class="registration__two-column"><input type="password"></td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Повторите пароль</td>
+                    <td class="registration__two-column"><input type="password"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td class="registration__form-name">Добавить фотографию</td>
+                    <td class="registration__two-column"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Адрес электронной почты</td>
+                    <td class="registration__two-column"><input type="email"></td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Адрес сайта</td>
+                    <td class="registration__two-column"><input type="url" name="site" value="http://"></td>
+                </tr>
+                <tr>
+                    <td rowspan=2 class="registration__form-name">Пол</td>
+                    <td class="registration__two-column"><input type="radio" value="man">Мужской</td>
+                </tr>
+                <tr>
+                    <td class="registration__two-column"><input type="radio" value="woman">Женский</td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">Дата рождения</td>
+                    <td class="registration__two-column"><input type="date" name="birthday"></td>
+                </tr>
+                <tr>
+                    <td rowspan =4 class="registration__form-name">Отметье знакомые технологии</td>
+                    <td class="registration__two-column"><input type="checkbox">HTML</td>
+                </tr>
+                <tr>
+                    <td class="registration__two-column"><input type="checkbox">CSS</td>
+                </tr>
+                <tr>
+                    <td class="registration__two-column"><input type="checkbox">JavaScript</td>
+                </tr>
+                <tr>
+                    <td class="registration__two-column"><input type="checkbox">Python/Django</td>
+                </tr>
+                <tr>
+                    <td class="registration__form-name">О себе</td>
+                    <td class="registration__two-column"><textarea cols="50" rows="3"></textarea></td>
+                </tr>
+               <tr>
+                   <td class="registration__form-name"></td>
+                   <td class="registration__two-column"><input type="submit" text="Зарегистрироваться"/></td>
+               </tr>
+            </table>
+        </div>
+    </body>
+</html>
