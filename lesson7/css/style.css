@@ -1,0 +1,32 @@
+header {
+    width: 1800px;
+    height: 950px;
+    background-image: url(../images/header-background.png);
+}
+header>img:nth-child(1){
+    width: 716px;
+    height: 948px;
+    position: absolute;
+    left:820px;
+    top: 260px;
+}
+header>img:nth-child(2){
+    float: left;
+    margin: 55px 0px 0px 320px;
+}
+header>div{
+    padding: 420px 0px 0px 320px;
+    width:400px;
+    color:white;
+}
+header>div>p:nth-child(1){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    margin:0px;
+}
+header>div>p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
