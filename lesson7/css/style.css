@@ -36,8 +36,8 @@ header>div>p:nth-child(2){
     background-color: white;
 }
 
-main >.text > div:nth-child(1),
-main >.text>div:nth-child(2){
+#text > div:nth-child(1),
+#text>div:nth-child(2){
     vertical-align:top;
     display: inline-block;
     width: 550px;
@@ -49,13 +49,22 @@ main >.text>div:nth-child(2){
     font-weight: 400;
     color: #959595;
 }
-main >.text > div:nth-child(1)>p:nth-child(1){
+#text > div:nth-child(1)>p:nth-child(1){
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 300;
     color: #222626;
 }
-main >.text>div:nth-child(2){
+#text>div:nth-child(2){
     margin-left: 30px;
     padding-top: 175px;
+}
+
+#box {
+    width: 1485px;
+    height: 556px;
+}
+
+#box_1row {
+    display: inline-block;
 }
