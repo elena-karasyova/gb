@@ -9,7 +9,6 @@ h1{
 
 h2{
     display: flex;
-    width: 1170px;
     margin-left: 315px;
     margin-top: 113px;
     font-family: 'Open Sans', sans-serif;
@@ -203,7 +202,88 @@ header>div>p:nth-child(2){
     width:1170px;
 }
 
-.green-block_column{
+.green-block_column{ 
     flex: 33.33%;
     margin-right: 30px;
+}
+ 
+.buying_figure{
+    margin:0px;
+    width:76px;
+    height: 25px;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+    color:white;
+}
+#buying_legacy{
+    background-color: #e1e1e1;
+    
+}
+
+#buying_most-popular{
+    background-color: #bd8cbf;
+    width:110px;
+}
+
+.buying_column>h2{
+    margin:0px;
+}
+#buying{
+    height: 630px;
+    width: 1800px;
+    background-color: #f6f7fa;
+}
+#buying_row{
+    padding-left: 330px;
+    padding-top: 102px;
+    display: flex;
+    width: 1170px;
+    margin:0px;
+}
+.buying_column{
+    flex: 50%;
+    padding-right: 130px;
+}
+.buying_column>h2{
+    margin-top:23px;
+    margin-bottom: 25px;
+}
+.buying_column>p {
+    margin-bottom: 27px;
+}
+.buying_column>div{
+    height: 17px;
+    width: 150px;
+    background-color: #82ca9c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    border-radius: 6px;
+}
+
+#buying_row> .buying_column{
+    width: 570px;
+    height: 380px;
+    padding: 45px 80px 0px 55px;
+}
+#buying_row> .buying_column:nth-child(2){
+    background-color: white;
+    box-shadow: 0 0 30px 0px #b6b6b6;
+}
+.buying_column>img{
+    margin: 20px 15px 0px 0px;
+}
+footer{
+    height: 605px;
+    width: 1800px;
+    background-color: #192431;
 }
