@@ -38,6 +38,8 @@ h3{
     color: white;
 }
 
+
+
 header {
     width: 1800px;
     height: 950px;
@@ -286,4 +288,68 @@ footer{
     height: 605px;
     width: 1800px;
     background-color: #192431;
+}
+
+#footer_row{
+    display: flex;
+    width:1193px;
+    padding-left: 330px;
+    padding-top: 130px;
+}
+.footer_column{ 
+    flex: 50%;
+    margin-right: 129px;
+}
+#footer_row-in-column{
+    display: flex;
+}
+.footer_column-in-column{ 
+    flex: 33.33%;
+    margin-right: 95px;
+}
+
+footer,
+.footer_column>h3,
+.footer_column-in-column>h3,
+.footer_column>.basic_text,
+.footer_column-in-column>.basic_text{
+    color: #f6f7fa;
+    font-size: 13px;
+}
+
+.footer_column>h3,
+.footer_column-in-column>h3{
+    margin-bottom: 28px;
+}
+.footer_column>.basic_text,
+.footer_column-in-column>.basic_text{
+    margin-bottom: 12px;
+}
+.footer_column>#footer_send{
+    display: inline-block;
+    width: 400px;
+    height: 58px;
+    background-color: #f6f7fa;
+    margin:0px;
+}
+.footer_column>button{
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    top: -1px;
+    width: 70px;
+    height: 58px;
+    background-color: #82ca9c;
+    margin:0px;
+    border:0px;
+}
+
+#footer_spam{
+    color:#57697f;
+    width: 335px;
+}
+
+#footer_row>.footer_column:nth-child(2){
+    margin-right: 0px;
+    padding-left: 79px;
 }
