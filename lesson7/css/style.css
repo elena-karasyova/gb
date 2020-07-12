@@ -325,31 +325,30 @@ footer,
 .footer_column-in-column>.basic_text{
     margin-bottom: 12px;
 }
-.footer_column>#footer_send{
+.footer_column>input{
+    vertical-align: top;
     display: inline-block;
-    width: 400px;
+    width: 379px;
     height: 58px;
     background-color: #f6f7fa;
     margin:0px;
+    padding:0px;
+    border:0px;
 }
+
 .footer_column>button{
-    display: inline-block;
     position: relative;
-    left: -4px;
-    top: -1px;
+    display: inline-block;
+    left: -3px;
     width: 70px;
     height: 58px;
     background-color: #82ca9c;
     margin:0px;
     border:0px;
+    padding:0px;
 }
 
 #footer_spam{
     color:#57697f;
     width: 335px;
-}
-
-#footer_row>.footer_column:nth-child(2){
-    margin-right: 0px;
-    padding-left: 79px;
 }
